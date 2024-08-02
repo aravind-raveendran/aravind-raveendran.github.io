@@ -100,17 +100,17 @@ Collaboration diagram for &lt;MCSubscriberDelegate&gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:a0fe022a7056cb7b504da4a9a528e1b36"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_subscriber_delegate-p.html#a0fe022a7056cb7b504da4a9a528e1b36">subscriber:didReceiveStreamStoppedEvent:</a></td></tr>
-<tr class="separator:a0fe022a7056cb7b504da4a9a528e1b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1f8d2ea8d5c79380fe3d3715ea4ee62"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_subscriber_delegate-p.html#aa1f8d2ea8d5c79380fe3d3715ea4ee62">subscriber:didReceiveRtsRemoteTrack:</a></td></tr>
-<tr class="separator:aa1f8d2ea8d5c79380fe3d3715ea4ee62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0232ea74a4cae647b9a14479b71edc3e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_subscriber_delegate-p.html#a0232ea74a4cae647b9a14479b71edc3e">subscriber:didReceiveStreamStoppedEvent:</a></td></tr>
+<tr class="separator:a0232ea74a4cae647b9a14479b71edc3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9e11fbb41835cde03b6f86ba8879de"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_subscriber_delegate-p.html#a8d9e11fbb41835cde03b6f86ba8879de">subscriber:didReceiveRTSRemoteTrack:</a></td></tr>
+<tr class="separator:a8d9e11fbb41835cde03b6f86ba8879de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Delegate protocol that can be implemented to receive subscriber specific events.</p>
 <p>Initialize the viewer with a delegate via <code>MCSubscriber/initWithDelegate:</code> </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a id="aa1f8d2ea8d5c79380fe3d3715ea4ee62" name="aa1f8d2ea8d5c79380fe3d3715ea4ee62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1f8d2ea8d5c79380fe3d3715ea4ee62">&#9670;&#160;</a></span>subscriber:didReceiveRtsRemoteTrack:</h2>
+<a id="a8d9e11fbb41835cde03b6f86ba8879de" name="a8d9e11fbb41835cde03b6f86ba8879de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d9e11fbb41835cde03b6f86ba8879de">&#9670;&#160;</a></span>subscriber:didReceiveRTSRemoteTrack:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,10 +125,10 @@ Instance Methods</h2></td></tr>
           <td class="paramname"><em>subscriber</em></td>
         </tr>
         <tr>
-          <td class="paramkey">didReceiveRtsRemoteTrack:</td>
+          <td class="paramkey">didReceiveRTSRemoteTrack:</td>
           <td></td>
-          <td class="paramtype">(nonnull <a class="el" href="interface_m_c_r_t_s_remote_track.html">MCRTSRemoteTrack</a> *)&#160;</td>
-          <td class="paramname"><em>rtsRemoteTrack</em>&#160;</td>
+          <td class="paramtype">(subscriber(_:didReceiveRTSRemoteTrack:))&#160;</td>
+          <td class="paramname"><em>NS_SWIFT_NAME</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -152,8 +152,8 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
-<a id="a0fe022a7056cb7b504da4a9a528e1b36" name="a0fe022a7056cb7b504da4a9a528e1b36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fe022a7056cb7b504da4a9a528e1b36">&#9670;&#160;</a></span>subscriber:didReceiveStreamStoppedEvent:</h2>
+<a id="a0232ea74a4cae647b9a14479b71edc3e" name="a0232ea74a4cae647b9a14479b71edc3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0232ea74a4cae647b9a14479b71edc3e">&#9670;&#160;</a></span>subscriber:didReceiveStreamStoppedEvent:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,8 +170,8 @@ Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">didReceiveStreamStoppedEvent:</td>
           <td></td>
-          <td class="paramtype">(nonnull <a class="el" href="interface_m_c_stream_stopped_event.html">MCStreamStoppedEvent</a> *)&#160;</td>
-          <td class="paramname"><em>event</em>&#160;</td>
+          <td class="paramtype">(subscriber(_:didReceiveStreamStoppedEvent:))&#160;</td>
+          <td class="paramname"><em>NS_SWIFT_NAME</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

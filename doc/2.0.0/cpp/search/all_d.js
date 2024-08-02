@@ -54,7 +54,7 @@ var searchData=
   ['mcdelegate_2dp_51',['MCDelegate-p',['../protocol_m_c_delegate-p.html',1,'']]],
   ['mcforceplayoutdelay_52',['MCForcePlayoutDelay',['../interface_m_c_force_playout_delay.html',1,'']]],
   ['mcgenericerrordomain_53',['MCGenericErrorDomain',['../obj__c__errors_8h.html#a59f702bc424dcd12b48004845aa14221',1,'obj_c_errors.h']]],
-  ['mchttpconnectionerror_54',['MCHttpConnectionError',['../interface_m_c_http_connection_error.html',1,'']]],
+  ['mchttpconnectionerror_54',['MCHTTPConnectionError',['../interface_m_c_h_t_t_p_connection_error.html',1,'']]],
   ['mcinboundrtpstreamstats_55',['MCInboundRtpStreamStats',['../interface_m_c_inbound_rtp_stream_stats.html',1,'']]],
   ['mcinternalsdkerrordomain_56',['MCInternalSDKErrorDomain',['../obj__c__errors_8h.html#ad49e0e7f02c273c06ee2863dd1c192f3',1,'obj_c_errors.h']]],
   ['mclogger_57',['MCLogger',['../interface_m_c_logger.html',1,'']]],

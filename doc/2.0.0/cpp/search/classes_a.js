@@ -27,7 +27,7 @@ var searchData=
   ['mccustomaudiosourcebuilder_24',['MCCustomAudioSourceBuilder',['../interface_m_c_custom_audio_source_builder.html',1,'']]],
   ['mcdelegate_2dp_25',['MCDelegate-p',['../protocol_m_c_delegate-p.html',1,'']]],
   ['mcforceplayoutdelay_26',['MCForcePlayoutDelay',['../interface_m_c_force_playout_delay.html',1,'']]],
-  ['mchttpconnectionerror_27',['MCHttpConnectionError',['../interface_m_c_http_connection_error.html',1,'']]],
+  ['mchttpconnectionerror_27',['MCHTTPConnectionError',['../interface_m_c_h_t_t_p_connection_error.html',1,'']]],
   ['mcinboundrtpstreamstats_28',['MCInboundRtpStreamStats',['../interface_m_c_inbound_rtp_stream_stats.html',1,'']]],
   ['mclogger_29',['MCLogger',['../interface_m_c_logger.html',1,'']]],
   ['mcloggerdelegate_2dp_30',['MCLoggerDelegate-p',['../protocol_m_c_logger_delegate-p.html',1,'']]],

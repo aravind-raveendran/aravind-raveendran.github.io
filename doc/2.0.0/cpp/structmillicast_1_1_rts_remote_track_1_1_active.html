@@ -79,8 +79,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2track_8h_source.html">track.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The event for active state notification.</p>
-<p>Note that this is a sticky event - attaching new event handler for it will cause triggering that event handler immediately if the state of the RTS track is currently active. </p>
+<div class="textblock"><p>The active state event indicates that the remote source publishing video/audio content is now active. In other words the stream is being sent to the server and is viable on the viewing client.</p>
+<dl class="section note"><dt>Note</dt><dd>The track is not enabled by default. The application can still call <a class="el" href="classmillicast_1_1_rts_remote_track.html#a0c982a5c59bf6a4bc1d5dab7049f8273">disable()</a> on this track to prevent it from being played. If the track was previously disabled, the application must call enable() for the track to be renderable.</dd>
+<dd>
+If the track was previously enabled by the application and is not disabled by the application it will automatically start playing once it becomes active.</dd>
+<dd>
+This is a sticky event - attaching new event handler for it will cause triggering that event handler immediately if the state of the RTS track is currently active. </dd></dl>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>api/millicast-sdk/<a class="el" href="api_2millicast-sdk_2track_8h_source.html">track.h</a></li>
 </ul>

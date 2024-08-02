@@ -79,8 +79,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2track_8h_source.html">track.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The event for inactive state notification.</p>
-<p>This is not a sticky event. If the RtsTrack is inactive, attaching new event handler does not trigger it. </p>
+<div class="textblock"><p>The inactive state event indicates that the remote source publishing video/audio content is no longer active. In other words the publishers stream is no longer being sent to the server and is thus no longer viewable on the viewing client.</p>
+<dl class="section note"><dt>Note</dt><dd>The track is not disabled by the SDK when this event occurs. If the application wants to ensure the track will not automatically be played once the source becomes active it should call <a class="el" href="classmillicast_1_1_rts_remote_track.html#a0c982a5c59bf6a4bc1d5dab7049f8273">disable()</a> when receiving this event. Then it is responsible for calling enable() on the <a class="el" href="structmillicast_1_1_rts_remote_track_1_1_active.html">Active</a> event.</dd>
+<dd>
+If the application does not disable on <a class="el" href="structmillicast_1_1_rts_remote_track_1_1_inactive.html">Inactive</a> event, the track will automatically start playing when the remote source becomes <a class="el" href="structmillicast_1_1_rts_remote_track_1_1_active.html">Active</a>.</dd>
+<dd>
+This is not a sticky event. If the RtsTrack is inactive, attaching new event handler does not trigger it. </dd></dl>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>api/millicast-sdk/<a class="el" href="api_2millicast-sdk_2track_8h_source.html">track.h</a></li>
 </ul>

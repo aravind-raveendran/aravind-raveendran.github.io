@@ -10,7 +10,8 @@ var searchData=
   ['invalid_7',['INVALID',['../namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13accc0377a8afbf50e7094f5c23a8af223',1,'millicast']]],
   ['invalid_5fjson_8',['INVALID_JSON',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca0bda02517506a951fcd2526b874172b2',1,'millicast::GenericError']]],
   ['invalid_5fjson_5fschema_9',['INVALID_JSON_SCHEMA',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca3741fff0a09e1d559089e3ddab0c4274',1,'millicast::GenericError']]],
-  ['invalid_5foptions_10',['INVALID_OPTIONS',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca340dfd6e33ff24b0f74d8a69a5c976f8',1,'millicast::GenericError']]],
-  ['invalid_5fstate_11',['INVALID_STATE',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca9b13c45c1433ed384821a4415b9a5c15',1,'millicast::GenericError']]],
-  ['iyuv_12',['IYUV',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aab08f0cb36474118c5bbc03b3a172a778',1,'millicast']]]
+  ['invalid_5fmedia_5fpermissions_10',['INVALID_MEDIA_PERMISSIONS',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4facaf8690e290f6b05bfeee7050904a1fdaa',1,'millicast::GenericError']]],
+  ['invalid_5foptions_11',['INVALID_OPTIONS',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca340dfd6e33ff24b0f74d8a69a5c976f8',1,'millicast::GenericError']]],
+  ['invalid_5fstate_12',['INVALID_STATE',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca9b13c45c1433ed384821a4415b9a5c15',1,'millicast::GenericError']]],
+  ['iyuv_13',['IYUV',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aab08f0cb36474118c5bbc03b3a172a778',1,'millicast']]]
 ];

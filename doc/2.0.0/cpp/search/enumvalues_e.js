@@ -8,5 +8,6 @@ var searchData=
   ['rest_5fapi_5ferror_5',['REST_API_ERROR',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca93f5a3723625c80be3a1744173072751',1,'millicast::GenericError']]],
   ['rgb_6',['RGB',['../namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba889574aebacda6bfd3e534e2b49b8028',1,'millicast']]],
   ['rgb24_7',['RGB24',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa08415b81fed4feed7d982c9919ac08ee',1,'millicast']]],
-  ['rgb565_8',['RGB565',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa3b73e4d15701467ed72f157ffaff680a',1,'millicast']]]
+  ['rgb565_8',['RGB565',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa3b73e4d15701467ed72f157ffaff680a',1,'millicast']]],
+  ['rtc_5fice_5fcandidate_9',['RTC_ICE_CANDIDATE',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba6b5d8562d85abd611bd400cf96408037',1,'millicast::rtcstats']]]
 ];

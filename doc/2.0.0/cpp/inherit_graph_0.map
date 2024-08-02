@@ -32,8 +32,8 @@
 <area shape="poly" id="edge14_Node000002_Node000034" title=" " alt="" coords="317,981,427,1014,471,1025,470,1030,425,1019,316,987"/>
 <area shape="rect" id="Node000035" href="$interface_m_c_force_playout_delay.html" title=" " alt="" coords="464,1077,617,1103"/>
 <area shape="poly" id="edge15_Node000002_Node000035" title=" " alt="" coords="295,986,354,1026,427,1064,464,1075,462,1080,425,1069,351,1031,292,991"/>
-<area shape="rect" id="Node000036" href="$interface_m_c_http_connection_error.html" title=" " alt="" coords="460,1127,621,1152"/>
-<area shape="poly" id="edge16_Node000002_Node000036" title=" " alt="" coords="286,989,344,1052,384,1085,427,1113,460,1126,458,1131,425,1118,381,1090,341,1056,282,993"/>
+<area shape="rect" id="Node000036" href="$interface_m_c_h_t_t_p_connection_error.html" title=" " alt="" coords="455,1127,626,1152"/>
+<area shape="poly" id="edge16_Node000002_Node000036" title=" " alt="" coords="286,989,344,1052,384,1085,427,1113,455,1124,453,1129,425,1118,381,1090,341,1056,282,993"/>
 <area shape="rect" id="Node000037" href="$interface_m_c_logger.html" title="Class that is responsible for managing SDK logs." alt="" coords="500,1176,581,1202"/>
 <area shape="poly" id="edge17_Node000002_Node000037" title=" " alt="" coords="280,992,304,1031,337,1077,378,1124,427,1163,463,1177,500,1184,499,1190,462,1182,425,1167,375,1128,332,1081,299,1033,276,994"/>
 <area shape="rect" id="Node000038" href="$interface_m_c_media.html" title="Class used for managing media sources." alt="" coords="502,1225,579,1251"/>

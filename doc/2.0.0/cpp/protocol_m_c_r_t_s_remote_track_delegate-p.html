@@ -107,16 +107,16 @@ Instance Methods</h2></td></tr>
 <tr class="separator:ac983d24f8591ab548fe784f5d21d7fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51e4d484f6db06a9e15705c3c352558a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_r_t_s_remote_track_delegate-p.html#a51e4d484f6db06a9e15705c3c352558a">rtsRemoteTrackInactive:</a></td></tr>
 <tr class="separator:a51e4d484f6db06a9e15705c3c352558a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b5138396ae7ae7ea204a44d14415613"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_r_t_s_remote_track_delegate-p.html#a5b5138396ae7ae7ea204a44d14415613">rtsRemoteTrack:didUpdateLayers:</a></td></tr>
-<tr class="separator:a5b5138396ae7ae7ea204a44d14415613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab84489f3e38acf48d29ccb1c5bbf20f5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_r_t_s_remote_track_delegate-p.html#ab84489f3e38acf48d29ccb1c5bbf20f5">rtsRemoteTrack:didUpdateMID:</a></td></tr>
-<tr class="separator:ab84489f3e38acf48d29ccb1c5bbf20f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e97524dd049b3e05ce99678198acb0"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_r_t_s_remote_track_delegate-p.html#a64e97524dd049b3e05ce99678198acb0">rtsRemoteTrack:didUpdateLayers:</a></td></tr>
+<tr class="separator:a64e97524dd049b3e05ce99678198acb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc6d8206918509f43527d326aae8d1fa"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_r_t_s_remote_track_delegate-p.html#acc6d8206918509f43527d326aae8d1fa">rtsRemoteTrack:didUpdateMID:</a></td></tr>
+<tr class="separator:acc6d8206918509f43527d326aae8d1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A delegate to receive remote track related events. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a id="a5b5138396ae7ae7ea204a44d14415613" name="a5b5138396ae7ae7ea204a44d14415613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b5138396ae7ae7ea204a44d14415613">&#9670;&#160;</a></span>rtsRemoteTrack:didUpdateLayers:</h2>
+<a id="a64e97524dd049b3e05ce99678198acb0" name="a64e97524dd049b3e05ce99678198acb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e97524dd049b3e05ce99678198acb0">&#9670;&#160;</a></span>rtsRemoteTrack:didUpdateLayers:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,8 +133,8 @@ Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">didUpdateLayers:</td>
           <td></td>
-          <td class="paramtype">(<a class="el" href="interface_m_c_r_t_s_remote_track_layers.html">MCRTSRemoteTrackLayers</a> *_Nonnull)&#160;</td>
-          <td class="paramname"><em>rtsRemoteTrackLayers</em>&#160;</td>
+          <td class="paramtype">(rtsRemoteTrack(_:didUpdateLayers:))&#160;</td>
+          <td class="paramname"><em>NS_SWIFT_NAME</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -158,8 +158,8 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
-<a id="ab84489f3e38acf48d29ccb1c5bbf20f5" name="ab84489f3e38acf48d29ccb1c5bbf20f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab84489f3e38acf48d29ccb1c5bbf20f5">&#9670;&#160;</a></span>rtsRemoteTrack:didUpdateMID:</h2>
+<a id="acc6d8206918509f43527d326aae8d1fa" name="acc6d8206918509f43527d326aae8d1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc6d8206918509f43527d326aae8d1fa">&#9670;&#160;</a></span>rtsRemoteTrack:didUpdateMID:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,8 +176,8 @@ Instance Methods</h2></td></tr>
         <tr>
           <td class="paramkey">didUpdateMID:</td>
           <td></td>
-          <td class="paramtype">(NSString *_Nullable)&#160;</td>
-          <td class="paramname"><em>mid</em>&#160;</td>
+          <td class="paramtype">(rtsRemoteTrack(_:didUpdateMID:))&#160;</td>
+          <td class="paramname"><em>NS_SWIFT_NAME</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -224,7 +224,7 @@ Instance Methods</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Event received when the track, i.e. it's publishing source, has become active.</p><ul>
+<p>Event received when the track, i.e. it's publishing source, has become active. In other words the stream is being sent to the server and is viable on the viewing client. The track is not enabled by default. The application can still call disable() on this track to prevent it from being played. If the track was previously disabled, the application must call enable() for the track to be renderable. If the track was previously enabled by the application and is not disabled by the application it will automatically start playing once it becomes active.</p><ul>
 <li>Parameters:<ul>
 <li>rtsRemoteTrack: The remote track that has become active. </li>
 </ul>
@@ -256,7 +256,7 @@ Instance Methods</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Event received when the track, i.e. it's publishing source, has become inactive.</p><ul>
+<p>Event received when the track, i.e. it's publishing source, has become inactive. In other words the publishers stream is no longer being sent to the server and is thus no longer viewable on the viewing client. The track is not disabled by the SDK when this event occurs. If the application wants to ensure the track will not automatically be played once the source becomes active it should call disable() when receiving this event. Then it is responsible for calling enable() on the Active event. If the application does not disable on Inactive event, the track will automatically start playing when the remote source becomes Active.</p><ul>
 <li>Parameters:<ul>
 <li>rtsRemoteTrack: The remote track that has become inactive. </li>
 </ul>

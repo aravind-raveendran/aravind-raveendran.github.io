@@ -1,8 +1,8 @@
 var searchData=
 [
   ['value_0',['Value',['../classmillicast_1_1_http_error.html#af9fd1f8cf1dc144acf6f88b1bb450866',1,'millicast::HttpError::Value'],['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4fac',1,'millicast::GenericError::Value'],['../classmillicast_1_1_async_operation_cancelled.html#a16e0b8501301a359bbeb5cd303330a58',1,'millicast::AsyncOperationCancelled::Value']]],
-  ['video_1',['VIDEO',['../classmillicast_1_1_webrtc_remote_track.html#a3e0b70136ef06edf3283f6218e793587a4012289015b8d94a441ca34000e992f7',1,'millicast::WebrtcRemoteTrack']]],
-  ['video_2',['video',['../structmillicast_1_1_publisher_option.html#a3246e227e46a5e4bb6370f8191fcbc43',1,'millicast::PublisherOption']]],
+  ['video_1',['video',['../structmillicast_1_1_publisher_option.html#a3246e227e46a5e4bb6370f8191fcbc43',1,'millicast::PublisherOption']]],
+  ['video_2',['VIDEO',['../classmillicast_1_1_webrtc_remote_track.html#a3e0b70136ef06edf3283f6218e793587a4012289015b8d94a441ca34000e992f7',1,'millicast::WebrtcRemoteTrack']]],
   ['video_5fsource_3',['VIDEO_SOURCE',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebaa9cdf5f82339ed3ef7f5ab3d46f800b6',1,'millicast::rtcstats']]],
   ['video_5fstandard_4',['video_standard',['../classmillicast_1_1_video_capabilities.html#a8fc8c3ba42111bd827f45a666cc09e79',1,'millicast::VideoCapabilities']]],
   ['video_5ftracks_5',['video_tracks',['../classmillicast_1_1_viewer.html#ad19dd02ce1b3d6bea0dcdcc8c9be7775',1,'millicast::Viewer']]],

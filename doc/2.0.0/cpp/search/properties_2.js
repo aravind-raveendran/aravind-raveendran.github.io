@@ -5,7 +5,7 @@ var searchData=
   ['clock_5frate_2',['clock_rate',['../interface_m_c_codecs_stats.html#a2eb8ffd0cfdefeede234edef52d98e1f',1,'MCCodecsStats']]],
   ['clusterid_3',['clusterId',['../interface_m_c_stream_publish_details.html#a1d130114617f67243e792255c7e1a6bf',1,'MCStreamPublishDetails::clusterId'],['../interface_m_c_stream_view_details.html#a2b7758acc92c005fe8997067bfdeb687',1,'MCStreamViewDetails::clusterId']]],
   ['cname_4',['cName',['../interface_m_c_webrtc_remote_track.html#a7423b74e505375b2d04b0983926c3409',1,'MCWebrtcRemoteTrack']]],
-  ['code_5',['code',['../interface_m_c_http_connection_error.html#a1896bcc92431197cc0680f8f0bed6406',1,'MCHttpConnectionError']]],
+  ['code_5',['code',['../interface_m_c_h_t_t_p_connection_error.html#a925edf9e5786040e8c30aaf839eab453',1,'MCHTTPConnectionError']]],
   ['codec_5fid_6',['codec_id',['../interface_m_c_rtp_stream_stats.html#a07dd8c708e7e61d0d828e567e7b86fb8',1,'MCRtpStreamStats']]],
   ['codec_5ftype_7',['codec_type',['../interface_m_c_codecs_stats.html#a152d6ea159842911425334a8a36fe4e9',1,'MCCodecsStats']]],
   ['concealed_5fsamples_8',['concealed_samples',['../interface_m_c_inbound_rtp_stream_stats.html#ae95d19fc8ab902513a9ea733453bada8',1,'MCInboundRtpStreamStats']]],

@@ -14,8 +14,8 @@ var searchData=
   ['resettemporallayerid_11',['resetTemporalLayerId',['../interface_m_c_r_t_s_remote_video_track_layer.html#ae7d9c741ba151c6177a518eb1b458d42',1,'MCRTSRemoteVideoTrackLayer']]],
   ['rtsremoteaudiotrack_12',['RtsRemoteAudioTrack',['../classmillicast_1_1_rts_remote_audio_track.html#a5b77f39933f70da7f0d32ad9fd8ef438',1,'millicast::RtsRemoteAudioTrack']]],
   ['rtsremotetrack_13',['RtsRemoteTrack',['../classmillicast_1_1_rts_remote_track.html#a4b20158d1ae6d511e8ca9f24b3b09cf8',1,'millicast::RtsRemoteTrack']]],
-  ['rtsremotetrack_3adidupdatelayers_3a_14',['rtsRemoteTrack:didUpdateLayers:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#a5b5138396ae7ae7ea204a44d14415613',1,'MCRTSRemoteTrackDelegate-p']]],
-  ['rtsremotetrack_3adidupdatemid_3a_15',['rtsRemoteTrack:didUpdateMID:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#ab84489f3e38acf48d29ccb1c5bbf20f5',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotetrack_3adidupdatelayers_3a_14',['rtsRemoteTrack:didUpdateLayers:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#a64e97524dd049b3e05ce99678198acb0',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotetrack_3adidupdatemid_3a_15',['rtsRemoteTrack:didUpdateMID:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#acc6d8206918509f43527d326aae8d1fa',1,'MCRTSRemoteTrackDelegate-p']]],
   ['rtsremotetrackactive_3a_16',['rtsRemoteTrackActive:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#ac983d24f8591ab548fe784f5d21d7fed',1,'MCRTSRemoteTrackDelegate-p']]],
   ['rtsremotetrackinactive_3a_17',['rtsRemoteTrackInactive:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#a51e4d484f6db06a9e15705c3c352558a',1,'MCRTSRemoteTrackDelegate-p']]],
   ['rtsremotevideotrack_18',['RtsRemoteVideoTrack',['../classmillicast_1_1_rts_remote_video_track.html#ae03b74d7301f55794a4e015fe814a6da',1,'millicast::RtsRemoteVideoTrack']]]
