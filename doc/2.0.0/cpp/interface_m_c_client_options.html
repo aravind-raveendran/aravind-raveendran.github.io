@@ -169,6 +169,16 @@ Properties</h2></td></tr>
 <tr class="memitem:a55f7d3d94da5150f9fc261d9a26b6ce1"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_client_options.html#a55f7d3d94da5150f9fc261d9a26b6ce1">priority</a></td></tr>
 <tr class="memdesc:a55f7d3d94da5150f9fc261d9a26b6ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The priority of redundant streams that indicates the order in which backup streams should be broadcasted in the case of any problems with the primary stream. Refer to the <a href="https://docs.dolby.io/streaming-apis/docs/redundant-ingest#4-set-priorities">Redundant Ingest Guide</a> to understand more.  <br /></td></tr>
 <tr class="separator:a55f7d3d94da5150f9fc261d9a26b6ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328fee8e5f5133cfa18996b730cac323"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_client_options.html#a328fee8e5f5133cfa18996b730cac323">forceSmooth</a></td></tr>
+<tr class="separator:a328fee8e5f5133cfa18996b730cac323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d5936c2dba3da6952d890961f920177"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_client_options.html#a6d5936c2dba3da6952d890961f920177">bweMonitorDurationUs</a></td></tr>
+<tr class="separator:a6d5936c2dba3da6952d890961f920177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d69f1076b554cc52395b523ee36d9e7"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_client_options.html#a1d69f1076b554cc52395b523ee36d9e7">bweRateChangePercentage</a></td></tr>
+<tr class="memdesc:a1d69f1076b554cc52395b523ee36d9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">What percentage of the estimated larger bitrate will we increase by when we think the network is good. So if the previous estimate was 1mbps and the new estimate is 10mbps, and bweRateChangePercentage is 0.05, then 0.05*10mbps = 0.5mbps, so the new target at the end of the tick will be 1 + 0.5 = 1.5mbps. This value can be reduced to increase more slowly under good conditions. Expects a double value.  <br /></td></tr>
+<tr class="separator:a1d69f1076b554cc52395b523ee36d9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ecc9ea91b7278075342953e80d2b7b8"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_client_options.html#a4ecc9ea91b7278075342953e80d2b7b8">upwardsLayerWaitTimeMs</a></td></tr>
+<tr class="memdesc:a4ecc9ea91b7278075342953e80d2b7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration the Transponder will wait before switching back to a higher layer in msec. Expects an unsigned integer value.  <br /></td></tr>
+<tr class="separator:a4ecc9ea91b7278075342953e80d2b7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="interface_m_c_client_options.html" title="The MCClientOptions class gathers options for the client.">MCClientOptions</a> class gathers options for the client. </p>
@@ -218,6 +228,53 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adjust the bitrate settings. This is only available for publishing. </p>
+
+</div>
+</div>
+<a id="a6d5936c2dba3da6952d890961f920177" name="a6d5936c2dba3da6952d890961f920177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d5936c2dba3da6952d890961f920177">&#9670;&#160;</a></span>bweMonitorDurationUs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSNumber*) bweMonitorDurationUs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Overrides the duration of time over which bandwidth-estimate-calculations occur in usec. By default this is 150msec, increasing this may smooth out transitions a little at the cost of NOT reacting to changes in the network as fast. Expects an unsigned integer value. </p>
+
+</div>
+</div>
+<a id="a1d69f1076b554cc52395b523ee36d9e7" name="a1d69f1076b554cc52395b523ee36d9e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d69f1076b554cc52395b523ee36d9e7">&#9670;&#160;</a></span>bweRateChangePercentage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSNumber*) bweRateChangePercentage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>What percentage of the estimated larger bitrate will we increase by when we think the network is good. So if the previous estimate was 1mbps and the new estimate is 10mbps, and bweRateChangePercentage is 0.05, then 0.05*10mbps = 0.5mbps, so the new target at the end of the tick will be 1 + 0.5 = 1.5mbps. This value can be reduced to increase more slowly under good conditions. Expects a double value. </p>
 
 </div>
 </div>
@@ -338,6 +395,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets the minimum/maximum playout delays for the incoming streams. </p>
+
+</div>
+</div>
+<a id="a328fee8e5f5133cfa18996b730cac323" name="a328fee8e5f5133cfa18996b730cac323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a328fee8e5f5133cfa18996b730cac323">&#9670;&#160;</a></span>forceSmooth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) forceSmooth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Forces video to be sent on downlink when switching from higher quality layers</p>
+<p>If true, smooth transitions will be enabled when changing from a higher rate to a lower rate, this may cause congested use cases to take longer to recover If false, then when switching from a higher rate to lower rate (due to congestion) we will stop sending video packets until the next I frame arrives at the new lower rate causing a pause but improving the impacts of congestion and recovering quicker. </p>
 
 </div>
 </div>
@@ -626,6 +707,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enables Scalable Video Coding selection. Refer to the <a href="https://www.w3.org/TR/webrtc-svc/#scalabilitymodes*">WebRTC standard</a> to learn which modes are supported by which codecs. This is only available when publishing. </p>
+
+</div>
+</div>
+<a id="a4ecc9ea91b7278075342953e80d2b7b8" name="a4ecc9ea91b7278075342953e80d2b7b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ecc9ea91b7278075342953e80d2b7b8">&#9670;&#160;</a></span>upwardsLayerWaitTimeMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSNumber*) upwardsLayerWaitTimeMs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duration the Transponder will wait before switching back to a higher layer in msec. Expects an unsigned integer value. </p>
 
 </div>
 </div>

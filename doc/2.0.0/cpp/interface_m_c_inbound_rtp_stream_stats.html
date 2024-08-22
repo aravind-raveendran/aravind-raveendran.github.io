@@ -254,6 +254,12 @@ Properties</h2></td></tr>
 <tr class="memitem:a650d85785e6ec76db9d7ec4a3db9793d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_inbound_rtp_stream_stats.html#a650d85785e6ec76db9d7ec4a3db9793d">min_playout_delay</a></td></tr>
 <tr class="memdesc:a650d85785e6ec76db9d7ec4a3db9793d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum playout delay during video transmission.  <br /></td></tr>
 <tr class="separator:a650d85785e6ec76db9d7ec4a3db9793d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06af436c8f81b68b7bff69badfbd3659"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_inbound_rtp_stream_stats.html#a06af436c8f81b68b7bff69badfbd3659">retransmitted_packets_received</a></td></tr>
+<tr class="memdesc:a06af436c8f81b68b7bff69badfbd3659"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of retransmitted packets that were received for this SSRC. This is a subset of packetsReceived. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-retransmittedpacketsreceived">retransmittedpacketsreceived</a>  <br /></td></tr>
+<tr class="separator:a06af436c8f81b68b7bff69badfbd3659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0fa2e40e941b864c86fe016e90eafc"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_inbound_rtp_stream_stats.html#a1a0fa2e40e941b864c86fe016e90eafc">retransmitted_bytes_received</a></td></tr>
+<tr class="memdesc:a1a0fa2e40e941b864c86fe016e90eafc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of retransmitted bytes that were received for this SSRC, only including payload bytes. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-retransmittedbytesreceived">retransmittedbytesreceived</a>  <br /></td></tr>
+<tr class="separator:a1a0fa2e40e941b864c86fe016e90eafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_m_c_received_rtp_stream_stats"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_received_rtp_stream_stats')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_m_c_received_rtp_stream_stats.html">MCReceivedRtpStreamStats</a></td></tr>
 <tr class="memitem:a2b4d170a4513ea16c70a06f66d7b4b48 inherit properties_interface_m_c_received_rtp_stream_stats"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_received_rtp_stream_stats.html#a2b4d170a4513ea16c70a06f66d7b4b48">packets_received</a></td></tr>
 <tr class="memdesc:a2b4d170a4513ea16c70a06f66d7b4b48 inherit properties_interface_m_c_received_rtp_stream_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of RTP packets received since the start of streaming. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreceived">packetsReceived</a>  <br /></td></tr>
@@ -1057,6 +1063,54 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The number of removed audio samples for acceleration. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-removedsamplesforacceleration">removedSamplesForAcceleration</a> </p>
+
+</div>
+</div>
+<a id="a1a0fa2e40e941b864c86fe016e90eafc" name="a1a0fa2e40e941b864c86fe016e90eafc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0fa2e40e941b864c86fe016e90eafc">&#9670;&#160;</a></span>retransmitted_bytes_received</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (unsigned long) retransmitted_bytes_received</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The total number of retransmitted bytes that were received for this SSRC, only including payload bytes. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-retransmittedbytesreceived">retransmittedbytesreceived</a> </p>
+
+</div>
+</div>
+<a id="a06af436c8f81b68b7bff69badfbd3659" name="a06af436c8f81b68b7bff69badfbd3659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06af436c8f81b68b7bff69badfbd3659">&#9670;&#160;</a></span>retransmitted_packets_received</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (unsigned long) retransmitted_packets_received</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The total number of retransmitted packets that were received for this SSRC. This is a subset of packetsReceived. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-retransmittedpacketsreceived">retransmittedpacketsreceived</a> </p>
 
 </div>
 </div>

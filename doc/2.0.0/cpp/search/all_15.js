@@ -13,8 +13,10 @@ var searchData=
   ['unspecified_10',['UNSPECIFIED',['../namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba1c04cc3823d476c3017238679a0fdf52',1,'millicast::UNSPECIFIED'],['../namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a1c04cc3823d476c3017238679a0fdf52',1,'millicast::UNSPECIFIED'],['../namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba1c04cc3823d476c3017238679a0fdf52',1,'millicast::UNSPECIFIED']]],
   ['unsubscribe_11',['unsubscribe',['../classmillicast_1_1_viewer.html#ad39a5b4843748e90a66f0d92642f02f4',1,'millicast::Viewer']]],
   ['unsubscribewithcompletionhandler_3a_12',['unsubscribeWithCompletionHandler:',['../interface_m_c_subscriber.html#a6d8f9ba5a080dddb9a1bfbf0109e207c',1,'MCSubscriber']]],
-  ['user_5fdata_13',['user_data',['../classmillicast_1_1_sei_user_unregistered_data.html#a1671327945da6a1e978014378763993b',1,'millicast::SeiUserUnregisteredData']]],
-  ['uuid_14',['uuid',['../structmillicast_1_1_stream_publish_details.html#abb25c03d85820fc081929e93f8ba7c28',1,'millicast::StreamPublishDetails::uuid'],['../interface_m_c_stream_publish_details.html#a62eca3ebb5015e7b1f932f7bfe076e39',1,'MCStreamPublishDetails::uuid'],['../classmillicast_1_1_sei_user_unregistered_data.html#a328b24d5fabafcd1f7e5274fd209a711',1,'millicast::SeiUserUnregisteredData::uuid() const =0']]],
-  ['uuid_5fsize_15',['UUID_SIZE',['../classmillicast_1_1_sei_user_unregistered_data.html#a3c257b19c40de794e63e9f0763a6fc8b',1,'millicast::SeiUserUnregisteredData']]],
-  ['uyvy_16',['UYVY',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa87261c567c007f283e17a5fc8c259296',1,'millicast']]]
+  ['upwards_5flayer_5fwait_5ftime_5fms_13',['upwards_layer_wait_time_ms',['../structmillicast_1_1_viewer_option.html#a2613d62724377abf0d5b5c0500982dab',1,'millicast::ViewerOption']]],
+  ['upwardslayerwaittimems_14',['upwardsLayerWaitTimeMs',['../interface_m_c_client_options.html#a4ecc9ea91b7278075342953e80d2b7b8',1,'MCClientOptions']]],
+  ['user_5fdata_15',['user_data',['../classmillicast_1_1_sei_user_unregistered_data.html#a1671327945da6a1e978014378763993b',1,'millicast::SeiUserUnregisteredData']]],
+  ['uuid_16',['uuid',['../structmillicast_1_1_stream_publish_details.html#abb25c03d85820fc081929e93f8ba7c28',1,'millicast::StreamPublishDetails::uuid'],['../interface_m_c_stream_publish_details.html#a62eca3ebb5015e7b1f932f7bfe076e39',1,'MCStreamPublishDetails::uuid'],['../classmillicast_1_1_sei_user_unregistered_data.html#a328b24d5fabafcd1f7e5274fd209a711',1,'millicast::SeiUserUnregisteredData::uuid() const =0']]],
+  ['uuid_5fsize_17',['UUID_SIZE',['../classmillicast_1_1_sei_user_unregistered_data.html#a3c257b19c40de794e63e9f0763a6fc8b',1,'millicast::SeiUserUnregisteredData']]],
+  ['uyvy_18',['UYVY',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa87261c567c007f283e17a5fc8c259296',1,'millicast']]]
 ];

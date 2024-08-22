@@ -109,8 +109,6 @@ Instance Methods</h2></td></tr>
 <tr class="separator:ad80491ba8f7840518a50c37160d4e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade56fc01941986fd5da5d02b7aba1a18"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#ade56fc01941986fd5da5d02b7aba1a18">enableStats:completionHandler:</a></td></tr>
 <tr class="separator:ade56fc01941986fd5da5d02b7aba1a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf5186d397d244af478cbc87cc444b5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#acdf5186d397d244af478cbc87cc444b5">enableFrameTransformer:completionHandler:</a></td></tr>
-<tr class="separator:acdf5186d397d244af478cbc87cc444b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Client base that contains common methods between <code><a class="el" href="interface_m_c_publisher.html" title="The Publisher interface is responsible for publishing media to a Millicast stream.">MCPublisher</a></code> and <code><a class="el" href="interface_m_c_subscriber.html" title="The Subscriber class manages the subscription to audio and video tracks from the Millicast platform.">MCSubscriber</a></code>. </p>
@@ -283,41 +281,6 @@ Instance Methods</h2></td></tr>
 <p>Disconnects from the Millicast platform. <br  />
  Any ongoing process of publishing or subscribing content is automatically stopped before termination. The websocket connection to Millicast will no longer be active after disconnect is complete.</p><ul>
 <li>Parameters:<ul>
-<li>completionHandler: Handler invoked when the result is ready. </li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-<a id="acdf5186d397d244af478cbc87cc444b5" name="acdf5186d397d244af478cbc87cc444b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdf5186d397d244af478cbc87cc444b5">&#9670;&#160;</a></span>enableFrameTransformer:completionHandler:</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (void) enableFrameTransformer: </td>
-          <td></td>
-          <td class="paramtype">(BOOL)&#160;</td>
-          <td class="paramname"><em>enable</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
-          <td></td>
-          <td class="paramtype">((deprecated))&#160;</td>
-          <td class="paramname"><em>__attribute__</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Enables or disables the frame transformation functionality that lets you add metadata to video frames. The functionality is disabled by default.</p><ul>
-<li>Parameters:<ul>
-<li>enable: A boolean that indicates the requested action. True enables the frame transformation, false disables it.</li>
 <li>completionHandler: Handler invoked when the result is ready. </li>
 </ul>
 </li>

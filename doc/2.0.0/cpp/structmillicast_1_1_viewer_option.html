@@ -132,6 +132,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af23d05978d4939ed2b32351ba943f4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a438ca7ae35349c0c87f1abb9b4a6119d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html#a438ca7ae35349c0c87f1abb9b4a6119d">jitter_minimum_delay_ms</a></td></tr>
 <tr class="separator:a438ca7ae35349c0c87f1abb9b4a6119d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d08497f2d5db04ead1f875df6984e52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html#a0d08497f2d5db04ead1f875df6984e52">force_smooth</a> {false}</td></tr>
+<tr class="separator:a0d08497f2d5db04ead1f875df6984e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d95a9f2aa6a80409e3bff7f9b25ffe9"><td class="memItemLeft" align="right" valign="top">std::optional&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html#a6d95a9f2aa6a80409e3bff7f9b25ffe9">bwe_monitor_duration_us</a></td></tr>
+<tr class="memdesc:a6d95a9f2aa6a80409e3bff7f9b25ffe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">overrides the duration of time over which bandwidth-estimate-calculations occur in usec By default this is 150msec, increasing this may smooth out transitions a little at the cost of NOT reacting to changes in the network as fast.  <br /></td></tr>
+<tr class="separator:a6d95a9f2aa6a80409e3bff7f9b25ffe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2613d62724377abf0d5b5c0500982dab"><td class="memItemLeft" align="right" valign="top">std::optional&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html#a2613d62724377abf0d5b5c0500982dab">upwards_layer_wait_time_ms</a></td></tr>
+<tr class="memdesc:a2613d62724377abf0d5b5c0500982dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration the Transponder will wait before switching back to a higher layer in msec. Defaults to immediate which is 0.  <br /></td></tr>
+<tr class="separator:a2613d62724377abf0d5b5c0500982dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5039cd5574f19b4690b7df757d135da"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html#ad5039cd5574f19b4690b7df757d135da">bwe_rate_change_percentage</a></td></tr>
+<tr class="separator:ad5039cd5574f19b4690b7df757d135da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structmillicast_1_1_client_option"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structmillicast_1_1_client_option')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structmillicast_1_1_client_option.html">millicast::ClientOption</a></td></tr>
 <tr class="memitem:a2848bff9f0914bc15154bbf894115100 inherit pub_attribs_structmillicast_1_1_client_option"><td class="memItemLeft" align="right" valign="top">std::optional&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_client_option.html#a2848bff9f0914bc15154bbf894115100">stereo</a></td></tr>
 <tr class="separator:a2848bff9f0914bc15154bbf894115100 inherit pub_attribs_structmillicast_1_1_client_option"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +155,37 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af8f68b04c4b519fd63c0b0e9f6caeb02 inherit pub_attribs_structmillicast_1_1_client_option"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6d95a9f2aa6a80409e3bff7f9b25ffe9" name="a6d95a9f2aa6a80409e3bff7f9b25ffe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d95a9f2aa6a80409e3bff7f9b25ffe9">&#9670;&#160;</a></span>bwe_monitor_duration_us</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;unsigned int&gt; millicast::ViewerOption::bwe_monitor_duration_us</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>overrides the duration of time over which bandwidth-estimate-calculations occur in usec By default this is 150msec, increasing this may smooth out transitions a little at the cost of NOT reacting to changes in the network as fast. </p>
+
+</div>
+</div>
+<a id="ad5039cd5574f19b4690b7df757d135da" name="ad5039cd5574f19b4690b7df757d135da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5039cd5574f19b4690b7df757d135da">&#9670;&#160;</a></span>bwe_rate_change_percentage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;double&gt; millicast::ViewerOption::bwe_rate_change_percentage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>What percentage of the estimated larger bitrate will we increase by when we think the network is good. So if the previous estimate was 1mbps and the new estimate is 10mbps, and bweRateChangePercentage is 0.05, then 0.05*10mbps = 0.5mbps, so the new target at the end of the tick will be 1 + 0.5 = 1.5mbps This value can be reduced to increase more slowly under good conditions. </p>
+
+</div>
+</div>
 <a id="af23d05978d4939ed2b32351ba943f4ec" name="af23d05978d4939ed2b32351ba943f4ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af23d05978d4939ed2b32351ba943f4ec">&#9670;&#160;</a></span>disable_audio</h2>
 
@@ -190,6 +231,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The playout delay to enforce on the client side. </p>
+
+</div>
+</div>
+<a id="a0d08497f2d5db04ead1f875df6984e52" name="a0d08497f2d5db04ead1f875df6984e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d08497f2d5db04ead1f875df6984e52">&#9670;&#160;</a></span>force_smooth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool millicast::ViewerOption::force_smooth {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Forces video to be sent on downlink when switching from higher quality layers</p>
+<p>If true, smooth transitions will be enabled when changing from a higher rate to a lower rate, this may cause congested use cases to take longer to recover If false, then when switching from a higher rate to lower rate (due to congestion) we will stop sending video packets until the next I frame arrives at the new lower rate causing a pause but improving the impacts of congestion and recovering quicker </p>
 
 </div>
 </div>
@@ -269,6 +326,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Select one of the incoming sources to pin as your main source. </p>
+
+</div>
+</div>
+<a id="a2613d62724377abf0d5b5c0500982dab" name="a2613d62724377abf0d5b5c0500982dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2613d62724377abf0d5b5c0500982dab">&#9670;&#160;</a></span>upwards_layer_wait_time_ms</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;unsigned int&gt; millicast::ViewerOption::upwards_layer_wait_time_ms</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Duration the Transponder will wait before switching back to a higher layer in msec. Defaults to immediate which is 0. </p>
 
 </div>
 </div>

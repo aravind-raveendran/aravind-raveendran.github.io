@@ -250,51 +250,55 @@ $(function() {
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="interface_m_c_client_options.html#aed7f3bda7c475fd70144c0acdf03bbbc">  269</a></span><span class="keyword">@property</span>(nonatomic,assign) BOOL recordStream;</div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="interface_m_c_cleanup.html#aae88e64afb5c780e6d6addec9274b4c5">  272</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *priority;</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="interface_m_c_client_options.html#a55f7d3d94da5150f9fc261d9a26b6ce1">  272</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *priority;</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="protocol_m_c_client-p.html">  277</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@protocol </span>MCClient</div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>- (void)connectWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="interface_m_c_client_options.html#a328fee8e5f5133cfa18996b730cac323">  282</a></span><span class="keyword">@property</span>(nonatomic, assign) BOOL forceSmooth;</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>- (void)connectWithOptions:(nonnull <a class="code hl_interface" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *) options</div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>         completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>- (void)connectWithWebsocketUrl:(nonnull NSString *)websocketUrl jwt:(nonnull NSString *)jwt</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span> </div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>- (void)connectWithWebsocketUrl:(nonnull NSString *)websocketUrl jwt:(nonnull NSString *)jwt</div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>              connectionOptions:(nonnull <a class="code hl_interface" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *) connectionOptions</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>- (void)isConnectedWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(BOOL connected)) completionHandler;</div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span> </div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span> </div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>- (void)disconnectWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span> </div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>- (void)enableStats:(BOOL)enable</div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>  completionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler;</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="interface_m_c_client_options.html#a6d5936c2dba3da6952d890961f920177">  286</a></span><span class="keyword">@property</span>(nonatomic, retain, nullable) NSNumber *bweMonitorDurationUs;</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="interface_m_c_client_options.html#a1d69f1076b554cc52395b523ee36d9e7">  289</a></span><span class="keyword">@property</span>(nonatomic, retain, nullable) NSNumber *bweRateChangePercentage;</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="interface_m_c_cleanup.html#aae88e64afb5c780e6d6addec9274b4c5">  292</a></span><span class="keyword">@property</span>(nonatomic, retain, nullable) NSNumber *upwardsLayerWaitTimeMs;</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno"><a class="line" href="protocol_m_c_client-p.html">  297</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@protocol </span>MCClient</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span> </div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>- (void)connectWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>- (void)connectWithOptions:(nonnull <a class="code hl_interface" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *) options</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>         completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>- (void)connectWithWebsocketUrl:(nonnull NSString *)websocketUrl jwt:(nonnull NSString *)jwt</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>- (void)connectWithWebsocketUrl:(nonnull NSString *)websocketUrl jwt:(nonnull NSString *)jwt</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>              connectionOptions:(nonnull <a class="code hl_interface" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *) connectionOptions</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>- (void)isConnectedWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(BOOL connected)) completionHandler;</div>
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>- (void)enableFrameTransformer:(BOOL)enable</div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>             completionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>             __attribute__((deprecated));</div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span> </div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>- (void)disconnectWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span> </div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno"><a class="line" href="interface_m_c_cleanup.html">  347</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_cleanup.html">MCCleanup</a> : NSObject</div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>+ (void)cleanup;</div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span> </div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>- (void)enableStats:(BOOL)enable</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>  completionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler;</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span> </div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span> </div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno"><a class="line" href="interface_m_c_cleanup.html">  358</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_cleanup.html">MCCleanup</a> : NSObject</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>+ (void)cleanup;</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span><span class="keyword">@end</span></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
 <div class="ttc" id="ainterface_m_c_bitrate_settings_html"><div class="ttname"><a href="interface_m_c_bitrate_settings.html">MCBitrateSettings</a></div><div class="ttdoc">The BitrateSettings class allows customizing bitrate settings for publishing streams.</div><div class="ttdef"><b>Definition</b> client.h:45</div></div>
 <div class="ttc" id="ainterface_m_c_bitrate_settings_html_a0ca6a90d83ee1d61d19d746e53ab89dc"><div class="ttname"><a href="interface_m_c_bitrate_settings.html#a0ca6a90d83ee1d61d19d746e53ab89dc">MCBitrateSettings::disableBWE</a></div><div class="ttdeci">BOOL disableBWE</div><div class="ttdoc">Disable built-in bandwidth estimation algorithm that forces sending the maximum bitrate without any c...</div><div class="ttdef"><b>Definition</b> client.h:47</div></div>
 <div class="ttc" id="ainterface_m_c_bitrate_settings_html_a64ba6202ea27149b6235bbac219b5871"><div class="ttname"><a href="interface_m_c_bitrate_settings.html#a64ba6202ea27149b6235bbac219b5871">MCBitrateSettings::startBitrateKbps</a></div><div class="ttdeci">NSInteger startBitrateKbps</div><div class="ttdoc">The start bitrate, in kilobits per second.</div><div class="ttdef"><b>Definition</b> client.h:56</div></div>
 <div class="ttc" id="ainterface_m_c_bitrate_settings_html_abfd79c1c963748513eb25a5ee132e56a"><div class="ttname"><a href="interface_m_c_bitrate_settings.html#abfd79c1c963748513eb25a5ee132e56a">MCBitrateSettings::minBitrateKbps</a></div><div class="ttdeci">NSInteger minBitrateKbps</div><div class="ttdoc">The minimum bitrate, in kilobits per second.</div><div class="ttdef"><b>Definition</b> client.h:53</div></div>
 <div class="ttc" id="ainterface_m_c_bitrate_settings_html_ad5cdd18da4dc7ba4719a3b539f9b7e9d"><div class="ttname"><a href="interface_m_c_bitrate_settings.html#ad5cdd18da4dc7ba4719a3b539f9b7e9d">MCBitrateSettings::maxBitrateKbps</a></div><div class="ttdeci">NSInteger maxBitrateKbps</div><div class="ttdoc">The maximum bitrate, in kilobits per second.</div><div class="ttdef"><b>Definition</b> client.h:50</div></div>
-<div class="ttc" id="ainterface_m_c_cleanup_html"><div class="ttname"><a href="interface_m_c_cleanup.html">MCCleanup</a></div><div class="ttdoc">The Cleanup class is responsible for cleaning the memory of dynamic objects.</div><div class="ttdef"><b>Definition</b> client.h:348</div></div>
+<div class="ttc" id="ainterface_m_c_cleanup_html"><div class="ttname"><a href="interface_m_c_cleanup.html">MCCleanup</a></div><div class="ttdoc">The Cleanup class is responsible for cleaning the memory of dynamic objects.</div><div class="ttdef"><b>Definition</b> client.h:359</div></div>
 <div class="ttc" id="ainterface_m_c_client_options_html"><div class="ttname"><a href="interface_m_c_client_options.html">MCClientOptions</a></div><div class="ttdoc">The MCClientOptions class gathers options for the client.</div><div class="ttdef"><b>Definition</b> client.h:209</div></div>
 <div class="ttc" id="ainterface_m_c_connection_options_html"><div class="ttname"><a href="interface_m_c_connection_options.html">MCConnectionOptions</a></div><div class="ttdoc">The MCConnectionOptions class gathers connection options.</div><div class="ttdef"><b>Definition</b> client.h:175</div></div>
 <div class="ttc" id="ainterface_m_c_force_playout_delay_html"><div class="ttname"><a href="interface_m_c_force_playout_delay.html">MCForcePlayoutDelay</a></div><div class="ttdef"><b>Definition</b> client.h:194</div></div>
@@ -303,7 +307,7 @@ $(function() {
 <div class="ttc" id="ainterface_m_c_h_t_t_p_connection_error_html_ae3c3be016f1c0fa7831b36558ca46c11"><div class="ttname"><a href="interface_m_c_h_t_t_p_connection_error.html#ae3c3be016f1c0fa7831b36558ca46c11">MCHTTPConnectionError::reason</a></div><div class="ttdeci">NSString * reason</div><div class="ttdef"><b>Definition</b> client.h:63</div></div>
 <div class="ttc" id="ainterface_m_c_signaling_error_html"><div class="ttname"><a href="interface_m_c_signaling_error.html">MCSignalingError</a></div><div class="ttdef"><b>Definition</b> client.h:73</div></div>
 <div class="ttc" id="ainterface_m_c_signaling_error_html_a8f04001abfddb90e88006a9204208167"><div class="ttname"><a href="interface_m_c_signaling_error.html#a8f04001abfddb90e88006a9204208167">MCSignalingError::reason</a></div><div class="ttdeci">NSString * reason</div><div class="ttdef"><b>Definition</b> client.h:74</div></div>
-<div class="ttc" id="ainterface_m_c_stats_report_html"><div class="ttname"><a href="interface_m_c_stats_report.html">MCStatsReport</a></div><div class="ttdoc">Interface is a container for various different statistics.</div><div class="ttdef"><b>Definition</b> stats.h:442</div></div>
+<div class="ttc" id="ainterface_m_c_stats_report_html"><div class="ttname"><a href="interface_m_c_stats_report.html">MCStatsReport</a></div><div class="ttdoc">Interface is a container for various different statistics.</div><div class="ttdef"><b>Definition</b> stats.h:469</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2client_8h_html_aab7195295cffc18d649ac2916403b2a2"><div class="ttname"><a href="objc_2_millicast_s_d_k_2client_8h.html#aab7195295cffc18d649ac2916403b2a2">NS_CLOSED_ENUM</a></div><div class="ttdeci">typedef NS_CLOSED_ENUM(NSInteger, MCDegradationPreferences)</div><div class="ttdoc">The DegradationPreferences enum. Based on the WebRTC standard</div><div class="ttdef"><b>Definition</b> client.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -197,12 +197,15 @@ $dokka.location:com.millicast.subscribers/ForcePlayoutDelay///PointingToDeclarat
 $dokka.location:com.millicast.subscribers/ForcePlayoutDelay/maximumDelay/#/PointingToDeclaration/android/com.millicast.subscribers/-force-playout-delay/maximum-delay.html
 $dokka.location:com.millicast.subscribers/ForcePlayoutDelay/minimumDelay/#/PointingToDeclaration/android/com.millicast.subscribers/-force-playout-delay/minimum-delay.html
 $dokka.location:com.millicast.subscribers/Option///PointingToDeclaration/android/com.millicast.subscribers/-option/index.html
+$dokka.location:com.millicast.subscribers/Option/bweMonitorDurationUs/#/PointingToDeclaration/android/com.millicast.subscribers/-option/bwe-monitor-duration-us.html
+$dokka.location:com.millicast.subscribers/Option/bweRateChangePercentage/#/PointingToDeclaration/android/com.millicast.subscribers/-option/bwe-rate-change-percentage.html
 $dokka.location:com.millicast.subscribers/Option/degradationPreferences/#/PointingToDeclaration/android/com.millicast.subscribers/-option/degradation-preferences.html
 $dokka.location:com.millicast.subscribers/Option/disableAudio/#/PointingToDeclaration/android/com.millicast.subscribers/-option/disable-audio.html
 $dokka.location:com.millicast.subscribers/Option/dtx/#/PointingToDeclaration/android/com.millicast.subscribers/-option/dtx.html
 $dokka.location:com.millicast.subscribers/Option/equals/#kotlin.Any?/PointingToDeclaration/android/com.millicast.subscribers/-option/equals.html
 $dokka.location:com.millicast.subscribers/Option/excludedSourceId/#/PointingToDeclaration/android/com.millicast.subscribers/-option/excluded-source-id.html
 $dokka.location:com.millicast.subscribers/Option/forcePlayoutDelay/#/PointingToDeclaration/android/com.millicast.subscribers/-option/force-playout-delay.html
+$dokka.location:com.millicast.subscribers/Option/forceSmooth/#/PointingToDeclaration/android/com.millicast.subscribers/-option/force-smooth.html
 $dokka.location:com.millicast.subscribers/Option/hashCode/#/PointingToDeclaration/android/com.millicast.subscribers/-option/hash-code.html
 $dokka.location:com.millicast.subscribers/Option/jitterMinimumDelayMs/#/PointingToDeclaration/android/com.millicast.subscribers/-option/jitter-minimum-delay-ms.html
 $dokka.location:com.millicast.subscribers/Option/maximumBitrate/#/PointingToDeclaration/android/com.millicast.subscribers/-option/maximum-bitrate.html
@@ -211,6 +214,7 @@ $dokka.location:com.millicast.subscribers/Option/pinnedSourceId/#/PointingToDecl
 $dokka.location:com.millicast.subscribers/Option/rtcEventLogOutputPath/#/PointingToDeclaration/android/com.millicast.subscribers/-option/rtc-event-log-output-path.html
 $dokka.location:com.millicast.subscribers/Option/statsDelayMs/#/PointingToDeclaration/android/com.millicast.subscribers/-option/stats-delay-ms.html
 $dokka.location:com.millicast.subscribers/Option/stereo/#/PointingToDeclaration/android/com.millicast.subscribers/-option/stereo.html
+$dokka.location:com.millicast.subscribers/Option/upwardsLayerWaitTimeMs/#/PointingToDeclaration/android/com.millicast.subscribers/-option/upwards-layer-wait-time-ms.html
 $dokka.location:com.millicast.subscribers/SubscriberListener///PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/index.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onFrameMetadata/#kotlin.Int#kotlin.Int#kotlin.ByteArray/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-frame-metadata.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onSubscribed/#/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-subscribed.html
@@ -258,7 +262,6 @@ $dokka.location:com.millicast////PointingToDeclaration/android/com.millicast/in
 $dokka.location:com.millicast/Client///PointingToDeclaration/android/com.millicast/-client/index.html
 $dokka.location:com.millicast/Client/connect/#com.millicast.clients.ConnectionOptions?/PointingToDeclaration/android/com.millicast/-client/connect.html
 $dokka.location:com.millicast/Client/disconnect/#/PointingToDeclaration/android/com.millicast/-client/disconnect.html
-$dokka.location:com.millicast/Client/enableFrameTransformer/#kotlin.Boolean/PointingToDeclaration/android/com.millicast/-client/enable-frame-transformer.html
 $dokka.location:com.millicast/Client/enableStats/#kotlin.Boolean/PointingToDeclaration/android/com.millicast/-client/enable-stats.html
 $dokka.location:com.millicast/Client/isConnected/#/PointingToDeclaration/android/com.millicast/-client/is-connected.html
 $dokka.location:com.millicast/Client/release/#/PointingToDeclaration/android/com.millicast/-client/release.html
